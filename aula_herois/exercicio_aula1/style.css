@@ -1,0 +1,19 @@
+.scool{
+    color: rgb(11, 182, 182);
+    font-size: larger;
+}
+.etec{
+    color: blueviolet;
+    font-size: x-large;
+}
+.inst{
+    color: chocolate;
+    font-size: xx-large;
+}
+.green{
+    color: rgb(42, 133, 133);
+    font-size:smaller;
+}
+body{
+    background-color: black;
+}

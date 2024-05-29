@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heróis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script>
+        cont = 1;
+        universo = prompt("Digite qual universo é o herói : ");
+        heroi = prompt("Digite o nome do herói: ");
+        n = prompt("Digite a quantidade de vezes você que que o herói apareça: ");
+        if (universo == "Marvel") {
+            for (x = 1; x <= n; x++) {
+                switch (heroi) {
+                    case "Doutor Estranho", "doutor estranho":
+                        document.write("<img src='img/marvel/doutor.jpg'> <br>");
+                        break;
+
+                    case "Homem de Ferro", "homem de ferro":
+                        document.write("<img src='img/marvel/iron.jpg'> <br>");
+                        break;
+                    case "Pantera Negra", "pantera negra":
+                        document.write("<img src='img/marvel/pantera.jpg'> <br>");
+                        break;
+                    case "Gavião Arqueiro", "gavião arqueiro":
+                        document.write("<img src='img/marvel/gaviao.jpg'> <br>");
+                        break;
+                    case "Wandavision", "wandavision":
+                        document.write("<img src='img/marvel/wanda.jpg'>  <br>");
+                        break;
+                    case "Shang Chi", "shang chi":
+                        document.write("<img src='img/marvel/shang_chi.jpg'>  <br>");
+                        break;
+                    case "Homem Aranha", "homem aranha":
+                        document.write("<img src='img/marvel/spider.jpg'>  <br>");
+                        break;
+                    case "Thor", "thor":
+                        document.write("<img src='img/marvel/thor.jpeg'> <br>");
+                        break;
+                    case "Viuva Negra", "viuva negra":
+                        document.write("<img src='img/marvel/viuva.jpg'> <br>");
+                        break;
+                    case "Gamora", "gamora":
+                        document.write("<img src='img/marvel/gamora.jpg'> <br>");
+                        break;
+                }
+            }
+        }
+        if (universo == "DC") {
+            while (cont <= n) {
+                switch (heroi) {
+                    case "Batman", "batman":
+                        document.write("<img src='img/dc/batman.jpg'> <br>");
+                        break;
+                    case "Cyborg", "cyborg":
+                        document.write("<img src='img/dc/Cyborg.jpg'> <br>");
+                        break;
+                    case "Batgirl", "batgirl":
+                        document.write("<img src='img/dc/batgirl.jpg'> <br>");
+                        break;
+                    case "Ravena", "ravena":
+                        document.write("<img src='img/dc/Ravena.jpg'> <br>");
+                        break;
+                    case "Asa Noturna", "asa noturna":
+                        document.write("<img src='img/dc/asa_noturna.jpg'> <br>");
+                        break;
+                    case "Robin", "robin":
+                        document.write("<img src='img/dc/robin.jpg'> <br>");
+                        break;
+                    case "Mutano", "mutano":
+                        document.write("<img src='img/dc/mutano.png'> <br>");
+                        break;
+                    case "Supergirl", "supergirl":
+                        document.write("<img src='img/dc/supergirl.jpg'> <br>");
+                        break;
+                    case "Estelar", "estelar":
+                        document.write("<img src='img/dc/estelar.jpg'> <br>");
+                        break;
+                    case " Mulher Gato", "mulher gato":
+                        document.write("<img src='img/dc/catwoman.jpeg'> <br>");
+                        break;
+                }
+                cont++;
+            }
+        }
+    </script>
+</body>
+
+</html>

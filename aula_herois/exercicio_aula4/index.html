@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel vs DC</title>
+</head>
+
+<body>
+    <script>
+        universo = prompt("Digite qual universo é o herói : ");
+
+        if (universo == "Marvel") {
+            heroi = prompt("Digite o nome do herói: ");
+            if (heroi == "Doutor Estranho") {
+                document.write("O " + heroi + " " + "<img src='img/marvel/doutor.jpg' width='400px'>");
+            }
+            if (heroi == "Homen de Ferro") {
+                document.write("O " + heroi + " " + "<img src='img/marvel/iron.jpg' width='400px'>");
+            }
+            if (heroi == "Homen Aranha") {
+                document.write("O " + heroi + " " + "<img src='img/marvel/spider.jpg' width='400px'>");
+            }
+            if (heroi == "Gavião Arqueiro") {
+                document.write("O " + heroi + " " + "<img src='img/marvel/gaviao.jpg' width='400px'>");
+            }
+            if (heroi == "Wandavision") {
+                document.write("A " + heroi + " " + "<img src='img/marvel/wanda.jpg' width='400px'>");
+            }
+        }
+        if (universo == "DC") {
+            heroi = prompt("Digite o nome do herói: ");
+            if (heroi == "Batman") {
+                document.write("O " + heroi + " " + "<img src='img/dc/batman.jpg' width='400px'>");
+            }
+            if (heroi == "Cyborg") {
+                document.write("O " + heroi + " " + "<img src='img/dc/Cyborg.jpg' width='400px'>");
+            }
+            if (heroi == "Batgirl") {
+                document.write("O " + heroi + " " + "<img src='img/dc/Batgirl.jpg' width='400px'>");
+            }
+            if (heroi == "Ravena") {
+                document.write("O " + heroi + " " + "<img src='img/dc/Ravena.jpg' width='400px'>");
+            }
+            if (heroi == "Asa Noturna") {
+                document.write("O " + heroi + " " + "<img src='img/dc/asa_noturna.jpg' width='400px'>");
+            }
+        }
+        else {
+            Document.write("Escolha um universo entre a Marvel ou a DC.");
+        }
+
+    </script>
+</body>
+
+</html>
